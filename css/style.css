@@ -1,0 +1,26 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+/* Stylesheets */
+@import url("components/cards.css");
+@import url("components/button.css");
+
+body {
+  margin: 0;
+  background-color: rgb(240,240,240);
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}

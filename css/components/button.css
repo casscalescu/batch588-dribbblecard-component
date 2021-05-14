@@ -1,0 +1,12 @@
+.btn {
+  background: green;
+  padding: 12px;
+  color: white;
+  display: block;
+  text-align: center;
+  transition: .3s;
+}
+
+.btn:hover {
+  background: #37AB51;
+}

@@ -1,0 +1,57 @@
+.card-product {
+  background: white;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.card-product-top {
+  display: flex;
+}
+
+.card-product-top > div {
+  width: 50%;
+}
+
+.card-product-top-image {
+  background-image: url("https://source.unsplash.com/random");
+  margin-right: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+.card-product-top-image i {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #FD77A0;
+}
+
+.card-product-top-info i {
+  color: #FDB434;
+}
+
+.card-product-middle {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  margin: 20px 0px;
+}
+
+.card-product-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-product-bottom img {
+  height: 100px;
+  flex-grow: 1;
+  margin: 0 8px;
+  object-fit: cover;
+}
+
+/* We don't want a margin on the right of the LAST image in the bottom row */
+/* We can use the :last-child selector or the :nth-child(3) directly on the child element we want to target  */
+.card-product-bottom img:last-child {
+  margin: 0;
+}
+
